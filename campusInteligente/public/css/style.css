@@ -1,0 +1,9 @@
+$custom-file-input: (
+  en: "Browse",
+  es: "Elegir",
+  pt: "importar"
+);
+
+:lang(en) > q { quotes: 'Importar' ; }
+:lang(fr) > q { quotes: 'c ' ' c'; }
+:lang(de) > q { quotes: '»' '«' '\2039' '\203A'; }

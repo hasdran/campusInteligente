@@ -1,0 +1,28 @@
+/* Fixed navbar */
+body {
+    padding-top: 90px;
+}
+/* General sizing */
+ul.dropdown-lr {
+  width: 300px;
+}
+.btn btn-secondary {
+  color: #eee;
+}
+#cabecalho{
+	color:#030101;
+}
+
+#lava_div{
+	height: 80% !important;
+	width: 80% !important;
+}
+/* mobile fix */
+@media (max-width: 768px) {
+	.dropdown-lr h3 {
+		color: #eee;
+	}
+	.dropdown-lr label {
+		color: #eee;
+	}
+}
